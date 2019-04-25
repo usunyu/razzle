@@ -9,12 +9,14 @@
     "start:prod": "NODE_ENV=production node build/server.js"
   },
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
     "express": "^4.15.2",
-    "material-ui": "^1.0.0-beta.38",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "react-jss": "^8.6.1"
   },
   "devDependencies": {
+    "jest": "^24.1.0",
     "razzle": "^3.0.0"
   }
 }
